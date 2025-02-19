@@ -44,6 +44,6 @@ For additional details and context, please refer to these resources:
 
 - **Blog:** [https://showa.fun/wsl-diskpart](https://showa.fun/wsl-diskpart)
 - **Japanese Blog:** [https://minokamo.tokyo/2025/02/13/8446/](https://minokamo.tokyo/2025/02/13/8446/)
-- **Hindi Blog:** [https://minokamo.in/](https://minokamo.in/)
+- **Hindi Blog:** [https://minokamo.in/wsl-vhdx](https://minokamo.in/wsl-vhdx)
 - **YouTube:** [https://youtu.be/pJ3j894sE1s](https://youtu.be/pJ3j894sE1s)
 - **YouTube (Japanese):** [https://youtu.be/pJ3j894sE1s](https://youtu.be/pJ3j894sE1s)
