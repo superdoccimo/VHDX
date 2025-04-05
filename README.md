@@ -42,7 +42,7 @@ Follow the on-screen instructions.
 
 For additional details and context, please refer to these resources:
 
-- **Blog:** [https://showa.fun/wsl-diskpart](https://showa.fun/wsl-diskpart)
+- **Blog:** [https://betelgeuse.work/wsl-diskpart/](https://betelgeuse.work/wsl-diskpart/)
 - **Japanese Blog:** [https://minokamo.tokyo/2025/02/13/8446/](https://minokamo.tokyo/2025/02/13/8446/)
 - **Hindi Blog:** [https://minokamo.in/wsl-vhdx](https://minokamo.in/wsl-vhdx)
 - **YouTube:** [https://youtu.be/Gn4Pr03HtIo](https://youtu.be/Gn4Pr03HtIo)
