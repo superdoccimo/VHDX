@@ -1,6 +1,7 @@
 # WSL VHD Compact Utility
 
 This repository contains scripts that help compact the WSL (Windows Subsystem for Linux) VHD/VHDX file, which can grow over time. Two versions are available:
+
 - PowerShell Script
 - Batch Script
 
@@ -17,26 +18,31 @@ This repository contains scripts that help compact the WSL (Windows Subsystem fo
 - **WSL Shutdown**: Before running the scripts, stop WSL by executing:
   ```bash
   wsl --shutdown
-    ```
-## Administrator Privileges:
-Ensure you run the scripts as an administrator.
+  ```
+- **Administrator Privileges**: Ensure you run the scripts as an administrator.
 
-## Supported OS:
+## Supported OS
+
 These scripts are intended for Windows systems running WSL.
 
 ## Usage
 
 ### PowerShell Script
-- Open PowerShell as an administrator.
-- Navigate to the repository directory.
-- Execute the script:
-  ```powershell
-  .\CompactWSLVHD.ps1
-  ```
-## Batch Script
 
-Right-click the batch file (`CompactWSLVHD.bat`) and select "Run as administrator".  
-Follow the on-screen instructions.
+1. **Open PowerShell as Administrator**.
+2. Navigate to the repository directory.
+3. Temporarily allow unsigned scripts (safe for session-only use):
+   ```powershell
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   ```
+4. Execute the script:
+   ```powershell
+   .\CompactWSLVHD.ps1
+   ```
+
+### Batch Script
+
+Right-click the batch file (`CompactWSLVHD.bat`) and select "Run as administrator".Follow the on-screen instructions.
 
 ## References
 
