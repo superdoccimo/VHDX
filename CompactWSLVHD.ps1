@@ -18,7 +18,7 @@ function Invoke-DiskPartScript {
         $ScriptContent | Out-File -FilePath $tempFile -Encoding ascii
         Write-Host "Executing diskpart: $tempFile" -ForegroundColor Yellow
         # Capture and display the output from diskpart
-        $result = diskpart /s $tempFile 2>&1
+        Start-Process -FilePath "diskpart.exe" -ArgumentList "/s `"$tempFile`"" -NoNewWindow -Wait
         Write-Host $result
     }
     finally {
