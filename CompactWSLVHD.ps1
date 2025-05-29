@@ -1,4 +1,4 @@
-#----------------------------------------------
+﻿#----------------------------------------------
 # Script to automatically detect the WSL VHD file and, if it is already attached,
 # detach it before executing diskpart to compact it.
 #----------------------------------------------
